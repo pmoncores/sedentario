@@ -18,8 +18,15 @@ function App() {
           Testando acesso AWS AMplify via Cloudflare
         </a>
       </header>
+   
+      <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+      <form>
+        <input type="text" defaultValue={process.env.REACT_APP_NOT_SECRET_CODE} />
+      </form>
+    
+
     </div>
-  );
+     );
 }
 
 export default App;
