@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          APRENDA REACT
+          Testando acesso AWS AMplify via Cloudflare
         </a>
       </header>
     </div>
