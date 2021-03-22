@@ -15,16 +15,20 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testando acesso AWS AMplify via Cloudflare
+          O que é React.JS
         </a>
-      </header>
-   
-      <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+
+        <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
       <form>
+         {/* setar variavel em ambiente teste/dev (via PowerShell)
+        ($env:REACT_APP_NOT_SECRET_CODE = "abcdef") -and (npm start)
+         */}
       <input type="text" defaultValue={process.env.REACT_APP_NOT_SECRET_CODE} />
       <input type="text" defaultValue="HARDCODED" />
       </form>
-    
+          </header>
+   
+
 
     </div>
      );
